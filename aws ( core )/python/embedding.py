@@ -10,7 +10,7 @@ load_dotenv()
 
 # AWS Configuration
 region = os.getenv("AWS_REGION")
-model_id = os.getenv("BEDROCK_MODEL_ID")
+model_id = os.getenv("BEDROCK_EMBEDDING_MODEL_ID")
 
 # Create a Bedrock Runtime client in the AWS Region of your choice.
 client = boto3.client("bedrock-runtime", region_name=region)
