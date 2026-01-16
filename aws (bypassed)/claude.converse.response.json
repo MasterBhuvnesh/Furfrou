@@ -1,0 +1,20 @@
+{
+   "output":{
+      "message":{
+         "role":"assistant",
+         "content":[
+            {
+               "text":"Machine learning is a field of artificial intelligence that enables computers to learn and improve from experience without being explicitly programmed."
+            }
+         ]
+      }
+   },
+   "usage":{
+      "inputTokens":21,
+      "outputTokens":26,
+      "totalTokens":47
+   },
+   "metrics":{
+      "latencyMs":538
+   }
+}
