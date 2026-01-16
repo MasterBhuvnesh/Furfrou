@@ -1,2 +1,6 @@
 Top_Secret
 .env
+.venv
+node_modules
+bun.lock
+package-lock.json

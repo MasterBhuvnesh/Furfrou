@@ -1,14 +1,16 @@
-import {
-  BedrockRuntimeClient,
-  ConverseCommand,
-} from "@aws-sdk/client-bedrock-runtime";
+import { BedrockRuntimeClient, ConverseCommand } from "@aws-sdk/client-bedrock-runtime";
 
-const client = new BedrockRuntimeClient({ region: "us-east-1" });
+const region = process.env.AWS_REGION || "us-east-1";
+const modelId = process.env.BEDROCK_MODEL_ID;
 
-const modelId = "anthropic.claude-3-haiku-20240307-v1:0";
+if (!modelId) {
+  console.error("ERROR: BEDROCK_MODEL_ID environment variable is not defined.");
+  process.exit(1);
+}
 
-const userMessage =
-  "Describe the purpose of a 'hello world' program in one line.";
+const client = new BedrockRuntimeClient({ region });
+
+const userMessage = "Different types of activation functions used in neural networks";
 const conversation = [
   {
     role: "user",
@@ -24,10 +26,10 @@ const command = new ConverseCommand({
 
 try {
   const response = await client.send(command);
-
   const responseText = response.output.message.content[0].text;
   console.log(responseText);
 } catch (err) {
-  console.log(`ERROR: Can't invoke '${modelId}'. Reason: ${err}`);
+  console.error(`ERROR: Can't invoke '${modelId}' in region '${region}'.`);
+  console.error(`Reason: ${err.message || err}`);
   process.exit(1);
 }
