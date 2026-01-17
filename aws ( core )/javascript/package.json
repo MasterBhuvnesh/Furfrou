@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@aws-sdk/client-bedrock-runtime": "^3.971.0",
+    "@smithy/node-http-handler": "^4.4.8",
     "dotenv": "^17.2.3"
   }
 }
