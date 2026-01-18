@@ -1,1 +1,65 @@
-{}
+{
+  "Gimai Seikatsu vol 1.pdf": {
+    "status": "embedded",
+    "chunks": 393,
+    "pages": 216,
+    "last_updated": "2026-01-18T17:09:43.414624",
+    "file_path": "E:\\FURFROU\\langchain ollama\\.pdfs\\Gimai Seikatsu vol 1.pdf"
+  },
+  "Gimai Seikatsu vol 10.pdf": {
+    "status": "embedded",
+    "chunks": 575,
+    "pages": 208,
+    "last_updated": "2026-01-18T17:10:22.836503",
+    "file_path": "E:\\FURFROU\\langchain ollama\\.pdfs\\Gimai Seikatsu vol 10.pdf"
+  },
+  "Gimai Seikatsu vol 2.pdf": {
+    "status": "embedded",
+    "chunks": 402,
+    "pages": 217,
+    "last_updated": "2026-01-18T17:10:48.336157",
+    "file_path": "E:\\FURFROU\\langchain ollama\\.pdfs\\Gimai Seikatsu vol 2.pdf"
+  },
+  "Gimai Seikatsu vol 3.pdf": {
+    "status": "embedded",
+    "chunks": 412,
+    "pages": 217,
+    "last_updated": "2026-01-18T17:11:18.966990",
+    "file_path": "E:\\FURFROU\\langchain ollama\\.pdfs\\Gimai Seikatsu vol 3.pdf"
+  },
+  "Gimai Seikatsu vol 4.pdf": {
+    "status": "embedded",
+    "chunks": 416,
+    "pages": 221,
+    "last_updated": "2026-01-18T17:12:13.363161",
+    "file_path": "E:\\FURFROU\\langchain ollama\\.pdfs\\Gimai Seikatsu vol 4.pdf"
+  },
+  "Gimai Seikatsu vol 5.pdf": {
+    "status": "embedded",
+    "chunks": 476,
+    "pages": 246,
+    "last_updated": "2026-01-18T17:13:26.791762",
+    "file_path": "E:\\FURFROU\\langchain ollama\\.pdfs\\Gimai Seikatsu vol 5.pdf"
+  },
+  "Gimai Seikatsu vol 6.pdf": {
+    "status": "embedded",
+    "chunks": 444,
+    "pages": 225,
+    "last_updated": "2026-01-18T17:14:55.137555",
+    "file_path": "E:\\FURFROU\\langchain ollama\\.pdfs\\Gimai Seikatsu vol 6.pdf"
+  },
+  "Gimai Seikatsu vol 7.pdf": {
+    "status": "embedded",
+    "chunks": 441,
+    "pages": 228,
+    "last_updated": "2026-01-18T17:16:14.616043",
+    "file_path": "E:\\FURFROU\\langchain ollama\\.pdfs\\Gimai Seikatsu vol 7.pdf"
+  },
+  "Gimai Seikatsu vol 8.pdf": {
+    "status": "embedded",
+    "chunks": 393,
+    "pages": 182,
+    "last_updated": "2026-01-18T17:17:51.171432",
+    "file_path": "E:\\FURFROU\\langchain ollama\\.pdfs\\Gimai Seikatsu vol 8.pdf"
+  }
+}

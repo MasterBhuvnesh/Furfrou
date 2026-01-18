@@ -5,3 +5,4 @@ node_modules
 bun.lock
 package-lock.json
 __pycache__
+.chroma_db

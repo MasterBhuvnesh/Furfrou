@@ -31,8 +31,8 @@ CHROMA_DIR.mkdir(exist_ok=True)
 
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 
-# LLM Model (DeepSeek R1 via Ollama)
-LLM_MODEL = os.getenv("LLM_MODEL", "deepseek-r1:8b")
+# LLM Model (LLama3.2 via Ollama)
+LLM_MODEL = os.getenv("LLM_MODEL", "llama3.2:latest")
 LLM_TEMPERATURE = 0.7
 LLM_NUM_CTX = 8192  # Context window size
 
