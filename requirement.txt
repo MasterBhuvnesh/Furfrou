@@ -5,3 +5,9 @@ python-dotenv
 langchain-aws
 langchain-anthropic
 langchain-openai
+langchain-core
+langchain-ollama
+langchain-chroma
+chromadb
+pypdf
+langchain-text-splitters
