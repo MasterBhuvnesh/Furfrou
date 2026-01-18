@@ -16,7 +16,7 @@ model_id = os.getenv("BEDROCK_MODEL_ID")
 client = boto3.client("bedrock-runtime", region_name=region)
 
 # Start a conversation with the user message.
-user_message = "Whats Machine Learning?.Explain in 1 sentence."
+user_message = "Whats Machine Learning?.Explain in 10 sentence."
 conversation = [
     {
         "role": "user",

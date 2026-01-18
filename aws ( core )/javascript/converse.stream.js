@@ -2,13 +2,23 @@ import {
   BedrockRuntimeClient,
   ConverseStreamCommand,
 } from "@aws-sdk/client-bedrock-runtime";
+import { NodeHttpHandler } from "@smithy/node-http-handler";
+import dotenv from "dotenv";
 
-const client = new BedrockRuntimeClient({ region: "us-east-1" });
+dotenv.config();
 
-const modelId = "anthropic.claude-3-haiku-20240307-v1:0";
+const client = new BedrockRuntimeClient({
+  region: process.env.AWS_REGION,
+  requestHandler: new NodeHttpHandler({
+    requestTimeout: 30000,
+    httpAgent: { maxSockets: 50 },
+  }),
+});
+
+const modelId = process.env.BEDROCK_MODEL_ID;
 
 const userMessage =
-  "Describe the purpose of a 'hello world' program in one line.";
+  "Whats Machine Learning?.Explain in 10 sentence.";
 const conversation = [
   {
     role: "user",
