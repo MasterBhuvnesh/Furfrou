@@ -4,3 +4,4 @@ Top_Secret
 node_modules
 bun.lock
 package-lock.json
+__pycache__
