@@ -6,3 +6,6 @@ bun.lock
 package-lock.json
 __pycache__
 .chroma_db
+.chromadb
+vector_db
+ollama.ipynb
